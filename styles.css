@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://picsum.photos/1600/900");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  height: 390px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px 0 #777;
+  cursor: pointer;
+  position: relative;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px 0 #00f;
+}
+
+.image {
+  position: absolute;
+  top: 90px;
+  right: 120px;
+}
+
+img {
+  width: 110px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.top-section {
+  background: #19a2ae;
+  width: 350px;
+  height: 140px;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.counts {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  border-top: 1px solid #19a2ae;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.info {
+  justify-content: center;
+  background: White;
+  line-height: 25px;
+}
+
+.section-title {
+  margin-top: 5.3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.count-first,
+.count-mid,
+.count-last,
+.info,
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grey-text {
+  color: grey;
+  margin-bottom: 0.8rem;
+}
+
+.light-section {
+  font-weight: lighter;
+  color: grey;
+}
